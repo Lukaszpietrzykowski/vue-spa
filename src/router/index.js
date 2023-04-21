@@ -20,7 +20,7 @@ const routes = [
 ]
 
 const router = createRouter({
-  history: createWebHistory('/vue-spa'),
+  history: createWebHistory('/vue-spa/'),
   routes,
 })
 
