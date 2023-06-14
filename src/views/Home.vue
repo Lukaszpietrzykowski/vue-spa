@@ -1,6 +1,6 @@
 <template>
   <div class="home pa-6">
-    <h1>Zadanie 3 Page</h1>
+    <h1>Projekt</h1>
     <v-card elevation="3" class="ma-6" title="Text1">
       <v-card-text>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque feugiat pretium nunc quis sagittis. Vestibulum

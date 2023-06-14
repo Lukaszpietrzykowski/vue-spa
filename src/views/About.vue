@@ -1,6 +1,6 @@
 <template>
     <div class="about pa-6">
-        <h1>About Zadanie 3 Page</h1>
+        <h1>About Projekt Page</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque feugiat pretium nunc quis sagittis. Vestibulum
             vitae consequat turpis. Phasellus a magna erat. Nam bibendum lorem nec rhoncus ultricies. Sed ut dui lectus.
