@@ -5,13 +5,15 @@
  */
 
 // Plugins
-import { loadFonts } from './webfontloader'
+import {loadFonts} from './webfontloader'
 import vuetify from './vuetify'
 import router from '../router'
+import i18n from '../i18n/i18n'
 
-export function registerPlugins (app) {
+export function registerPlugins(app) {
   loadFonts()
   app
+    .use(i18n)
     .use(vuetify)
     .use(router)
 }

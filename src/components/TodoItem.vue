@@ -46,10 +46,6 @@
   }
 }
 
-body {
-  zoom: 140%;
-}
-
 .todo-buttons {
   display: flex;
   flex-wrap: nowrap;

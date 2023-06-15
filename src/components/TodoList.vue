@@ -17,10 +17,6 @@
   flex-direction: column;
   margin: 20px;
 }
-
-body {
-  zoom: 140%;
-}
 </style>
 
 <script>

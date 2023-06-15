@@ -1,14 +1,14 @@
 <template>
   <form class="todo-form" @submit="handleSubmit">
-      <input
-        type="text"
-        placeholder="Dodaj zadanie"
-        v-model="inputValue"
-        class="todo-input"
-      />
-      <button type="submit" class="btn-submit">
-        <font-awesome-icon :icon="faAdd"/>
-      </button>
+    <input
+      type="text"
+      :placeholder="$t(`todo.placeholder`)"
+      v-model="inputValue"
+      class="todo-input"
+    />
+    <button type="submit" class="btn-submit">
+      <font-awesome-icon :icon="faAdd"/>
+    </button>
   </form>
 </template>
 

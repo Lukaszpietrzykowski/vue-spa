@@ -1,6 +1,6 @@
 <template>
   <div class="todo-app">
-    <span class="todo-tittle">Co masz dziś do zrobienia✍️</span>
+    <span class="todo-tittle">{{ $t("todo.title") }}✍️</span>
     <TodoList/>
   </div>
 </template>
@@ -50,10 +50,6 @@
     border: 2px solid black;
     margin-top: 5px;
   }
-}
-
-body {
-  zoom: 140%;
 }
 
 .todo-tittle {
